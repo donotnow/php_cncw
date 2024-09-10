@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* padding: cach khoang cach noi dung */
+}
+
+/* .wrapper .header img, .wrapper .header nav{
+    float:right;
+} */
+
+.header{
+    height: auto;
+    /*background size: 100% 180px*/
+    /* width: 500px; */
+    /* width:100%; chieu dai bao phu toan bo page */
+    width: 100%;
+    /* background-image: url("../images/meo1.jpg"); */
+    background-repeat: none;
+    /* background: #ff0080; */
+}
+
+.wrapper .header img {
+    float: right;
+    width: 70%;
+    height: 223px;
+  }
+
+
+.wrapper .header nav {
+	float: right;
+	padding: 10px;
+}
+
+.wrapper .header nav a:hover {
+    color:orange;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.clear{
+    clear:both;
+}
+
+.menu{
+    border: 1px solid #1aff8c;
+    height: 50px;
+    /* width: 500px; */
+    width: 100%;
+    /* width:100%; chieu dai bao phu toan bo page */
+    background: #00e6ac;
+}
+
+ul.list-menu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /* cho cac thuoc tinh vao chinh giua */
+    width:50%;
+    margin: 0 auto;
+}
+
+ul.list-menu li{
+    float:left;
+    /* border:1px solid #000; */
+    margin: 7px;
+    padding: 5px;
+}
+
+ul.list_menu li a{
+    text-decoration: none;
+    text-align: center;
+    color: #3333ff;
+}
+
+ul.list_menu li:hover{
+    background:burlywood;
+}
+
+ul.list-sidebar{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /* border: 1px solid; */
+    /* cho cac thuoc tinh vao chinh giua */
+    width:100%;
+    /* margin: 0 auto; */
+}
+
+ul.list-sidebar li{
+    /* float:left; */
+    /* border:1px solid; */
+    margin: 7px;
+    padding: 5px;
+}
+
+ul.list-sidebar li a{
+    text-decoration: none;
+  text-align: left;
+  color: #3333ff;
+  display: block;
+  /*display: block -- dang cot cua ul*/
+}
+ul.list-sidebar li:hover{
+    background:cadetblue;
+}
+
+
+.sidebar{
+    border: 1px solid #00ff80;
+    height: auto;
+    width: 20%;
+    margin-top:50px;
+    margin-left:5px;
+    float: left;
+    /* float: left; la sidebar ve left thi 
+    content cung bi do sang left*/
+}
+
+#main{
+    /* border: 1px solid #00ff80; */
+    height: auto;
+    /* width: 500px; */
+    width: 100%;
+    /* float: left; */
+    /* width:100%; chieu dai bao phu toan bo page */
+}
+
+.content {
+	border: 1px solid #00ff80;
+	height: auto;
+	width: 78%;
+	margin-top: 50px;
+	margin-left: 5px;
+	float: right;
+	margin-right: 5px;
+}
+
+.footer {
+	/* border: 1px solid #ff1a8c; */
+	height: auto;
+	/* width: 500px; */
+	width: 100%;
+	/* width: 100%; */
+	/* background: #00cc39; */
+	margin-top: 14px;
+}
+
+
+  
